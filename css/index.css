@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #2D838A;
+    --color-bg: #0C0A33;
+    --color-white: #fff;
+}
+
+
+@font-face {
+    font-family: Hubballi;
+    src: url(../assets/fonts/Hubballi-Regular.ttf);
+  }
+
+ /* ---------------------------------------------------
+                GENERAL
+---------------------------------------------------- */
+body{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 1950px;
+    background-color: var(--color-bg);
+    overflow-x: hidden;
+}
+header{
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6,p, span, li, a{
+    font-family: Hubballi;
+    color: var(--color-white);
+}
+p{
+    color: #CCC;
+    font-size: 1.3rem;
+    letter-spacing: .9px;
+}
+h1{font-size: 2.6rem;}
+h2{font-size: 2.4rem;}
+h3{font-size: 2.2rem;}
+h4{font-size: 2rem;}
+h5{font-size: 1.8rem;}
+h6{font-size: 1.6rem;}
+
+button{
+    text-transform: uppercase;
+	color: #fff;
+    border: none;
+	/* font-family: Impact; */
+	font-size: 1.3rem;
+	position: relative;
+    padding: 10px 30px;
+	background: var(--color-primary);
+	outline: none;
+}
+button:hover{
+    box-shadow: 
+            0 0 10px .2px rgba(255,255,255, .1),
+            0 0 10px .2px rgba(255,255,255, .2),
+            0 0 10px .2px rgba(255,255,255, .3),
+            0 0 10px .2px rgba(255,255,255, .4),
+            0 0 10px .2px rgba(255,255,255, .5),
+            0 0 10px .2px rgba(255,255,255, .6);
+    transform: scale(1.2);
+}
+
+/*apply the effect here for not distort letters*/
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.ilustration{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+

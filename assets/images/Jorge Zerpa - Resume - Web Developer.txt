@@ -1,0 +1,48 @@
+Jorge Zerpa
+Web Developer
+
++584126436969
+
+Desarrollador web Frontend Junior, Especializado en Animaciones con CSS y JavaScript.  Gran habildad para maquetar sitios web  manteniendo al cien por ciento la idea inicial del diseñador. Entendimiento de conceptos básicos de la ingeniería de software y redes en general. Experiencia en colaboración remota en algunos trails y bootcamps con personas de todas partes del mundo.
+
+INFORMACIÓN PERSONAL
+  Address: , , 
+  Nationality: 
+  Driving License: 
+  Hobbies: 
+
+PERFILES REDES SOCIALES
+  * website Portfolio: https://jorgezerpa.github.io/zerpaCode/
+  * linkdin (Jorge Zerpa): https://www.linkedin.com/in/jorge-zerpa-305b68228
+
+IDIOMAS
+  ★★★★★ español
+  ★★★★☆ English
+
+COMPETENCIAS
+  ★★★★★ HTML
+  ★★★★★ JavaScript
+  ★★★★★ CSS
+  ★★★★☆ React
+  ★★★★☆ Git y Github
+
+FORMACIÓN
+  * 2014 – 2019
+    Colegio Ciudad de Lagunillas, Venezuela, Mérida Bachiller en Ciencias
+
+CURSOS
+  * 
+    Master en JavaScript, Victor Robles, udemy
+  * 
+    Curso Porfesional de JavaScript, Platzi
+  * 
+    React JS, patrones de Render y Composición, Platzi
+  * 
+    JavaScript engine (v8), Platzi
+  * 
+    Gestion de depencias y paquetes con NPM, Platzi
+  * 
+    React JS, manejo Profesional del Estado, Platzi
+  * 
+    CompTIA Network+ Cert Prep, Linkedin learning
+
