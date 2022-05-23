@@ -76,7 +76,6 @@ class Project{
 }
 
 const projectsInfo = [
-    new Project('librería 3D', './assets/icons/restaurant-icon.svg', 'Biblioteca virtual con libros sobre tegnología IT.m Animaciones en 3D', 'ReactJS, material UI', 'https://nifty-hawking-0dda3a.netlify.app'),
     new Project('Geritch Restaurant Landing Page', './assets/icons/restaurant-icon.svg', 'Ejemplo de landing page para restaurante d comida alemana', 'ReactJS', 'https://jorgezerpa.github.io/geritch-restaurant-REACT/'),
     new Project('Arcade Shoting game', './assets/icons/restaurant-icon.svg', 'Videojuego clasico al estilo de space invaders.', 'js, canvasJS', 'https://jorgezerpa.github.io/basic-shoting-game/'),
     new Project('app de Video-chat', './assets/icons/restaurant-icon.svg', 'Solo necesitas enviar tu ID a un amigo, y comenzar la llamada.', 'React, node, webSockets', 'https://venerable-dasik-0c5c7a.netlify.app/'),
