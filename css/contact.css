@@ -1,11 +1,26 @@
         /* contact */
         .contact{
-            background-color: #0C0A22;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        .contact__card{
+            margin: 0 auto;
+            background: radial-gradient(rgba(255,255,255,.5) , rgba(255,255,255,.1));
+            width: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            gap: 40px;
+            gap: 20px;
+            padding: 10px;
+        }
+        @media screen and (max-width: 600px) {
+            .contact__card{
+                width: 90%;
+            }
         }
         
         

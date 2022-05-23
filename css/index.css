@@ -6,7 +6,7 @@
 
 :root{
     --color-primary: #2D838A;
-    --color-bg: #0C0A33;
+    --color-bg: rgb(2,0,36);
     --color-white: #fff;
 }
 
@@ -21,9 +21,7 @@
 ---------------------------------------------------- */
 body{
     position: absolute;
-    min-width: 100vw;
-    min-height: 100vh;
-    max-width: 1950px;
+    width: 100vw;
     background-color: var(--color-bg);
     overflow-x: hidden;
 }
@@ -31,14 +29,19 @@ header{
     position: relative;
 }
 
-h1,h2,h3,h4,h5,h6,p, span, li, a{
+h1,h2,h3,h4,h5,h6{
     font-family: Hubballi;
     color: var(--color-white);
 }
+p, span, li, a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-white);
+}
 p{
-    color: #CCC;
-    font-size: 1.3rem;
-    letter-spacing: .9px;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
 }
 h1{font-size: 2.6rem;}
 h2{font-size: 2.4rem;}
@@ -55,8 +58,11 @@ button{
 	font-size: 1.3rem;
 	position: relative;
     padding: 10px 30px;
-	background: var(--color-primary);
+	background: hsl(48, 80%, 70%);
+    background: radial-gradient(rgba(255,255,255,.5) , rgba(255,255,255,.1));
 	outline: none;
+    border-radius: 30px;
+    transition: .5s all;
 }
 button:hover{
     box-shadow: 
